@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/viewPagerFragment">
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.mdpandg.viewpager2tester.ViewPagerFragment"
+        android:label="view_pager_fragment"
+        tools:layout="@layout/view_pager_fragment" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_secondFragment"
+            app:destination="@id/secondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.mdpandg.viewpager2tester.SecondFragment"
+        android:label="second_fragment"
+        tools:layout="@layout/second_fragment" />
+</navigation>
