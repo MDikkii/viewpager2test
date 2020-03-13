@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.demkow.mikolaj.viewpager2tester.MainActivity">
+        <activity android:name="com.mdpandg.viewpager2tester.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
